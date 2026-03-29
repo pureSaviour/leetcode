@@ -1,0 +1,10 @@
+#Gitnore 练习
+#忽略所有的 .log 文件
+*.log
+#忽略所有的 .tmp 文件
+*.tmp
+# 忽略bin目录下的所有文件
+bin/
+# 忽略任意obj文件夹
+obj/
+.idea/
