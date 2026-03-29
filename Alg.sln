@@ -4,6 +4,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001", "001\001.csproj", "{4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004 寻找两个正序数组的中位数", "004 寻找两个正序数组的中位数\004 寻找两个正序数组的中位数.csproj", "{9E8E8C59-38C1-428E-976E-8BE9D876AF62}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "二分查找", "二分查找", "{1F8B931E-4687-4EB9-9021-75E179C51CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二分查找基础", "二分查找基础\二分查找基础.csproj", "{80EC0FE8-19F2-4205-BF3B-E760F27CE1B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{9B02744F-937F-41BD-B86C-BF5F602FB89E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGenerator", "RandomGenerator\RandomGenerator.csproj", "{02000D7E-3470-44E9-BDCD-F553B95CA7C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "035 搜索插入位置", "035 搜索插入位置\035 搜索插入位置.csproj", "{9EC4DDF8-E35B-4A7F-9612-A66D92A1C54C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +28,21 @@ Global
 		{9E8E8C59-38C1-428E-976E-8BE9D876AF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E8E8C59-38C1-428E-976E-8BE9D876AF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E8E8C59-38C1-428E-976E-8BE9D876AF62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80EC0FE8-19F2-4205-BF3B-E760F27CE1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80EC0FE8-19F2-4205-BF3B-E760F27CE1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80EC0FE8-19F2-4205-BF3B-E760F27CE1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80EC0FE8-19F2-4205-BF3B-E760F27CE1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02000D7E-3470-44E9-BDCD-F553B95CA7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02000D7E-3470-44E9-BDCD-F553B95CA7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02000D7E-3470-44E9-BDCD-F553B95CA7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02000D7E-3470-44E9-BDCD-F553B95CA7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC4DDF8-E35B-4A7F-9612-A66D92A1C54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC4DDF8-E35B-4A7F-9612-A66D92A1C54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC4DDF8-E35B-4A7F-9612-A66D92A1C54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC4DDF8-E35B-4A7F-9612-A66D92A1C54C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80EC0FE8-19F2-4205-BF3B-E760F27CE1B9} = {1F8B931E-4687-4EB9-9021-75E179C51CF6}
+		{02000D7E-3470-44E9-BDCD-F553B95CA7C3} = {9B02744F-937F-41BD-B86C-BF5F602FB89E}
 	EndGlobalSection
 EndGlobal

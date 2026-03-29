@@ -12,3 +12,40 @@ D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\obj\Debug\net10.0\refint\
 D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\obj\Debug\net10.0\004 寻找两个正序数组的中位数.pdb
 D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\obj\Debug\net10.0\004 寻找两个正序数组的中位数.genruntimeconfig.cache
 D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\obj\Debug\net10.0\ref\004 寻找两个正序数组的中位数.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\RandomGenerator.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\RandomGenerator.pdb
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\obj\Debug\net10.0\004 寻找两个正序数组的中位数.csproj.AssemblyReference.cache
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\obj\Debug\net10.0\004 ____.F742B21C.Up2Date
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\TraceReloggerLib.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Dia2Lib.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\x86\KernelTraceControl.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\x86\KernelTraceControl.Win61.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\x86\msdia140.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\amd64\KernelTraceControl.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\amd64\msdia140.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\arm64\KernelTraceControl.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\arm64\msdia140.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\BenchmarkDotNet.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\BenchmarkDotNet.Annotations.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\CommandLine.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Gee.External.Capstone.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Iced.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Microsoft.Diagnostics.NETCore.Client.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Microsoft.Diagnostics.Runtime.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Microsoft.Diagnostics.FastSerialization.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Microsoft.Diagnostics.Tracing.TraceEvent.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Microsoft.Extensions.Logging.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Microsoft.Extensions.Options.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Microsoft.Extensions.Primitives.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Perfolizer.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\Pragmastat.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\System.CodeDom.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\System.Management.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\runtimes\win-x64\native\capstone.dll
+D:\C#\Alg\Alg\004 寻找两个正序数组的中位数\bin\Debug\net10.0\runtimes\win\lib\net9.0\System.Management.dll

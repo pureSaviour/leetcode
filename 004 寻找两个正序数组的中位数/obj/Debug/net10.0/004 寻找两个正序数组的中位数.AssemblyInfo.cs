@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("004 寻找两个正序数组的中位数")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8ea64b9db12eb924324e4892915201809948ad7")]
 [assembly: System.Reflection.AssemblyProductAttribute("004 寻找两个正序数组的中位数")]
 [assembly: System.Reflection.AssemblyTitleAttribute("004 寻找两个正序数组的中位数")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
