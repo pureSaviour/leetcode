@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGenerator", "RandomGe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "035 搜索插入位置", "035 搜索插入位置\035 搜索插入位置.csproj", "{9EC4DDF8-E35B-4A7F-9612-A66D92A1C54C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "033 搜索旋转排序数组", "033 搜索旋转排序数组\033 搜索旋转排序数组.csproj", "{8DB8F9F2-66B2-4987-8288-189CD3288022}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{9EC4DDF8-E35B-4A7F-9612-A66D92A1C54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EC4DDF8-E35B-4A7F-9612-A66D92A1C54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EC4DDF8-E35B-4A7F-9612-A66D92A1C54C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB8F9F2-66B2-4987-8288-189CD3288022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB8F9F2-66B2-4987-8288-189CD3288022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB8F9F2-66B2-4987-8288-189CD3288022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB8F9F2-66B2-4987-8288-189CD3288022}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{80EC0FE8-19F2-4205-BF3B-E760F27CE1B9} = {1F8B931E-4687-4EB9-9021-75E179C51CF6}
