@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "035 搜索插入位置", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "033 搜索旋转排序数组", "033 搜索旋转排序数组\033 搜索旋转排序数组.csproj", "{8DB8F9F2-66B2-4987-8288-189CD3288022}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "034 在排序数组中查找元素的第一个和最后一个位置", "034 在排序数组中查找元素的第一个和最后一个位置\034 在排序数组中查找元素的第一个和最后一个位置.csproj", "{5E3F699C-BA6E-4A73-8DF7-A75E60723BB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{8DB8F9F2-66B2-4987-8288-189CD3288022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DB8F9F2-66B2-4987-8288-189CD3288022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DB8F9F2-66B2-4987-8288-189CD3288022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3F699C-BA6E-4A73-8DF7-A75E60723BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3F699C-BA6E-4A73-8DF7-A75E60723BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3F699C-BA6E-4A73-8DF7-A75E60723BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3F699C-BA6E-4A73-8DF7-A75E60723BB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{80EC0FE8-19F2-4205-BF3B-E760F27CE1B9} = {1F8B931E-4687-4EB9-9021-75E179C51CF6}
