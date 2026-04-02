@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "074 搜索二维矩阵", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "081 搜索旋转排序数组2", "081 搜索旋转排序数组2\081 搜索旋转排序数组2.csproj", "{30ACB651-9515-4C63-B337-FBC8577631CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "739 每日温度", "739 每日温度\739 每日温度.csproj", "{D696A087-8458-426B-908F-D8E51DC25922}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,6 +66,10 @@ Global
 		{30ACB651-9515-4C63-B337-FBC8577631CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30ACB651-9515-4C63-B337-FBC8577631CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30ACB651-9515-4C63-B337-FBC8577631CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D696A087-8458-426B-908F-D8E51DC25922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D696A087-8458-426B-908F-D8E51DC25922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D696A087-8458-426B-908F-D8E51DC25922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D696A087-8458-426B-908F-D8E51DC25922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{80EC0FE8-19F2-4205-BF3B-E760F27CE1B9} = {1F8B931E-4687-4EB9-9021-75E179C51CF6}
