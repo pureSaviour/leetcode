@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2485 找出中枢整数", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009 回文数", "009 回文数\009 回文数.csproj", "{088697AA-418C-4A12-9337-1F597634FC21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007 整数反转", "007 整数反转\007 整数反转.csproj", "{79ADDE2A-B2D6-40DB-9B43-401544419B0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,6 +102,10 @@ Global
 		{088697AA-418C-4A12-9337-1F597634FC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{088697AA-418C-4A12-9337-1F597634FC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{088697AA-418C-4A12-9337-1F597634FC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79ADDE2A-B2D6-40DB-9B43-401544419B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79ADDE2A-B2D6-40DB-9B43-401544419B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79ADDE2A-B2D6-40DB-9B43-401544419B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79ADDE2A-B2D6-40DB-9B43-401544419B0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{80EC0FE8-19F2-4205-BF3B-E760F27CE1B9} = {1F8B931E-4687-4EB9-9021-75E179C51CF6}
