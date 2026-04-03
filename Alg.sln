@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "146 LRU缓存", "146 LRU缓
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1502 判断能否形成等差数列", "1502 判断能否形成等差数列\1502 判断能否形成等差数列.csproj", "{FA5A0451-C047-4BA6-A257-1809B4BFE9A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2485 找出中枢整数", "2485 找出中枢整数\2485 找出中枢整数.csproj", "{AE9B2F43-AE4F-4EBD-B2BA-0C0296AA8300}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +90,10 @@ Global
 		{FA5A0451-C047-4BA6-A257-1809B4BFE9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA5A0451-C047-4BA6-A257-1809B4BFE9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA5A0451-C047-4BA6-A257-1809B4BFE9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE9B2F43-AE4F-4EBD-B2BA-0C0296AA8300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9B2F43-AE4F-4EBD-B2BA-0C0296AA8300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9B2F43-AE4F-4EBD-B2BA-0C0296AA8300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9B2F43-AE4F-4EBD-B2BA-0C0296AA8300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{80EC0FE8-19F2-4205-BF3B-E760F27CE1B9} = {1F8B931E-4687-4EB9-9021-75E179C51CF6}
