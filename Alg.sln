@@ -38,6 +38,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007 整数反转", "007 整
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "263 丑数", "263 丑数\263 丑数.csproj", "{61E7489E-7506-4B6F-A59A-D0F08069F376}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014 最长公共前缀", "014 最长公共前缀\014 最长公共前缀.csproj", "{F18DA879-B346-4C7E-A321-35C3197CC8EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020 有效的括号", "020 有效的括号\020 有效的括号.csproj", "{6D9263AB-6A04-4CD4-A5D3-4BAA0B1142A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1700 无法吃午餐的学生数量", "1700 无法吃午餐的学生数量\1700 无法吃午餐的学生数量.csproj", "{DD5C976B-BD79-424F-8DE6-2BFC67F50398}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -112,6 +118,18 @@ Global
 		{61E7489E-7506-4B6F-A59A-D0F08069F376}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61E7489E-7506-4B6F-A59A-D0F08069F376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61E7489E-7506-4B6F-A59A-D0F08069F376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F18DA879-B346-4C7E-A321-35C3197CC8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18DA879-B346-4C7E-A321-35C3197CC8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18DA879-B346-4C7E-A321-35C3197CC8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18DA879-B346-4C7E-A321-35C3197CC8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9263AB-6A04-4CD4-A5D3-4BAA0B1142A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9263AB-6A04-4CD4-A5D3-4BAA0B1142A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9263AB-6A04-4CD4-A5D3-4BAA0B1142A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9263AB-6A04-4CD4-A5D3-4BAA0B1142A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5C976B-BD79-424F-8DE6-2BFC67F50398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5C976B-BD79-424F-8DE6-2BFC67F50398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5C976B-BD79-424F-8DE6-2BFC67F50398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5C976B-BD79-424F-8DE6-2BFC67F50398}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{80EC0FE8-19F2-4205-BF3B-E760F27CE1B9} = {1F8B931E-4687-4EB9-9021-75E179C51CF6}
