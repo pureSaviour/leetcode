@@ -97,8 +97,19 @@ public sealed class CustomConcurrentStack<T> : IProducerConsumerCollection<T>, I
         ValidatePushPopRangeInput(items, startIndex, count);
         int popCount = TryPopCore(count, out var head);
         if (popCount > 0)
-            ToList(head).CopyTo(items, startIndex);
+            CopyRemovedItems(head!, items, startIndex, popCount);
+        
         return popCount;
+    }
+
+    private void CopyRemovedItems(Node node, T[] items, int startIndex, int popCount)
+    {
+        var current = node;
+        for (int i = startIndex; i < startIndex + popCount; ++i)
+        {
+            items[i] = current!.Value;
+            current = current.Next;
+        }
     }
 
     private static void ValidatePushPopRangeInput(T[] items, int startIndex, int count)
@@ -115,28 +126,32 @@ public sealed class CustomConcurrentStack<T> : IProducerConsumerCollection<T>, I
         {
             spinWait.SpinOnce(sleep1Threshold: -1);     // No need to call Thread.Sleep(1) in this method, so we disable it by passing -1.
             tail.Next = _head;
-        } while (Interlocked.CompareExchange(ref _head, head, tail.Next) != tail.Next);
+        } while (Interlocked.CompareExchange(
+                     ref _head, head, tail.Next) != tail.Next);
     }
 
     private int TryPopCore(int count, out Node? node)
     {
         SpinWait spin = default;
         int backoff = 1;
-        do
+        while(true)
         {
             Node? head = _head;
-            Node next;
-            int nodesCount = 1;
             if (head is null)
             {
                 node = null;
                 return 0;
             }
+            Node next;
+            int nodesCount = 1;
 
-            for (next = head; next.Next is not null && nodesCount < count; next = next.Next, ++nodesCount) ;
+            for (next = head; next.Next is not null && nodesCount < count; ++nodesCount, next = next.Next) ;
             if (Interlocked.CompareExchange(ref _head, next.Next, head) == head)
             {
-                next.Next = null;
+                // 这里不能断开旧链的链接！ 
+                // 别的线程可能正在遍历这个链表，如果断开了链接，可能会导致别的线程在上一步提前终止遍历
+                
+                // next.Next = null;
                 node = head;
                 return nodesCount;
             }
@@ -147,7 +162,7 @@ public sealed class CustomConcurrentStack<T> : IProducerConsumerCollection<T>, I
             if (spin.NextSpinWillYield)
                 backoff = Random.Shared.Next(minValue: 1, maxValue: BackoffMaxYields);
             else backoff *= 2;
-        } while (true);
+        }
     }
 
     public IEnumerator<T> GetEnumerator()
