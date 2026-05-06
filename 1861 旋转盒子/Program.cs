@@ -67,7 +67,7 @@ public class Solution
                 }
         }
         
-        return res;
+        return res;  
     }
 
     private static (int newI, int newJ) RotateIndex(int i, int j, int m)
